@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E8449 "
+    tools:context=".LogadoActivity">
+
+    <TextView
+        android:id="@+id/txtparte1"
+        android:layout_width="361dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/txtparte1"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="278dp"
+        android:layout_height="232dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="67dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abraco" />
+
+    <Button
+        android:id="@+id/btncomeco"
+        android:layout_width="173dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="47dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/btncomeco"
+        android:textColor="#1E8449 "
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtparte2"
+        android:layout_width="364dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="25dp"
+        android:text="@string/txtparte2"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtparte1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">appMarinaDamasceno</string>
+    <string name="txt1">SustenShop</string>
+    <string name="btnentrar">Entrar</string>
+    <string name="txtbv">Bem Vindo!</string>
+    <string name="txttextobv">Faça compras susntentáveis e conscientes! Se cadastre agora. Os melhores produtos você só encontra aqui!</string>
+    <string name="btnlogin">Login</string>
+    <string name="txtparte1">Obrigado por se cadastrar!</string>
+    <string name="txtparte2">Sua atitude pode mudar o mundo! Ao se juntar a nós, você deu o primeiro passo em direção a uma mudança que pode transformar o mundo!</string>
+    <string name="btncomeco">Começar</string>
+    <string name="txtintroducao">Você sabia que preservar o meio ambiente é essencial para a sobrevivência de nossa biosfera, por isso devemos agir de forma responsável, reduzindo o desperdício, conservando recursos naturais e protegendo a diversidade da vida na Terra, por isso, a vida na Terra é importante, e salvar o meio ambiente também.</string>
+    <string name="btnparte1">Continuar</string>
+    <string name="txtdesenvolvimento">A nossa loja veio ao mundo com o intuito de fazer com que essa compra seja mais acessível e mais conhecida para os nossos clientes, além de mostrar para as pessoas que esse tipo de aquisição é viável e é melhor, em comparação aos produtos que agridem mais o meio ambiente.</string>
+    <string name="btnparte2">Continuar</string>
+    <string name="txtfim">Comprar produtos sustentáveis beneficia a todos, reduzindo as emissões de gases do efeito estufa, preservando a biodiversidade, economizando recursos naturais e incentivando a inovação. Nossa loja promove a acessibilidade e conscientização sobre essa escolha, demonstrando que é viável e superior aos produtos prejudiciais ao meio ambiente.</string>
+    <string name="btnparte3">Continuar</string>
+    <string name="txttitulo">Procure e Encontre os Melhores Produtos</string>
+    <string name="editTxt">Procurar</string>
+    <string name="btnvoltar">Voltar</string>
+    <string name="txtp1">EcoBag</string>
+    <string name="txtp2">Higiene Pessoal</string>
+    <string name="txtp3">Bebedouro</string>
+    <string name="txtp4">Mudas</string>
+    <string name="bthp1">Buy</string>
+    <string name="bthp2">Buy</string>
+    <string name="bthp3">Buy</string>
+    <string name="bthp4">Buy</string>
+</resources>
