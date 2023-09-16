@@ -10,128 +10,164 @@
         android:id="@+id/txttitulo"
         android:layout_width="354dp"
         android:layout_height="80dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="29dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/txttitulo"
         android:textColor="#7B9F5B"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="81dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnvoltar"
+        tools:ignore="TextContrastCheck,TextSizeCheck" />
 
     <Button
         android:id="@+id/btnvoltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="#7B9F5B"
+        android:onClick="Comeco"
         android:text="@string/btnvoltar"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="167dp"
         android:layout_height="170dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
         android:backgroundTint="#8BC34A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttitulo"
         app:srcCompat="@drawable/f1"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="221dp" />
+        tools:ignore="ContentDescription,ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="175dp"
         android:layout_height="170dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttitulo"
         app:srcCompat="@drawable/f2"
-        tools:layout_editor_absoluteX="224dp"
-        tools:layout_editor_absoluteY="221dp" />
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="175dp"
         android:layout_height="174dp"
+        android:layout_marginStart="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtp3"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/f3"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="490dp" />
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="171dp"
         android:layout_height="181dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtp4"
+        app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/f4"
-        tools:layout_editor_absoluteX="224dp"
-        tools:layout_editor_absoluteY="490dp" />
+        tools:ignore="ContentDescription,ImageContrastCheck" />
 
     <TextView
         android:id="@+id/txtp1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="7dp"
         android:fontFamily="sans-serif-medium"
         android:text="@string/txtp1"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="398dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
     <Button
         android:id="@+id/btnp1"
         android:layout_width="78dp"
         android:layout_height="38dp"
+        android:layout_marginStart="60dp"
         android:backgroundTint="#8BC34A"
         android:text="@string/bthp1"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="420dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtp1"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck,TextContrastCheck" />
 
     <Button
         android:id="@+id/btp3"
         android:layout_width="78dp"
         android:layout_height="38dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="7dp"
         android:backgroundTint="#8BC34A"
         android:text="@string/bthp3"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="686dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <Button
         android:id="@+id/btp4"
         android:layout_width="78dp"
         android:layout_height="38dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="3dp"
         android:backgroundTint="#8BC34A"
         android:text="@string/bthp4"
-        tools:layout_editor_absoluteX="268dp"
-        tools:layout_editor_absoluteY="690dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <Button
         android:id="@+id/btn2p"
         android:layout_width="78dp"
         android:layout_height="38dp"
+        android:layout_marginEnd="50dp"
         android:backgroundTint="#8BC34A"
         android:text="@string/bthp2"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="420dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtp2"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <TextView
         android:id="@+id/txtp2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="35dp"
         android:fontFamily="sans-serif-medium"
         android:text="@string/txtp2"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="259dp"
-        tools:layout_editor_absoluteY="398dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
     <TextView
         android:id="@+id/txtp3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="61dp"
         android:text="@string/txtp3"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="664dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btp3"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/txtp4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="79dp"
         android:text="@string/txtp4"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="668dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btp4"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -32,7 +32,8 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtbv" />
+        app:layout_constraintTop_toBottomOf="@+id/txtbv"
+        tools:ignore="TextContrastCheck,TextSizeCheck" />
 
     <Button
         android:id="@+id/btnlogin"
@@ -48,7 +49,8 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTextNumber"

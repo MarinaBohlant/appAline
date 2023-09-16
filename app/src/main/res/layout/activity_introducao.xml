@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#7ba05b"
+    android:onClick="Desenvolvimento"
     tools:context=".introducaoActivity">
 
     <TextView
@@ -20,7 +21,8 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="TextSizeCheck" />
 
     <Button
         android:id="@+id/btnparte1"
@@ -30,12 +32,15 @@
         android:layout_marginEnd="101dp"
         android:layout_marginBottom="76dp"
         android:backgroundTint="@color/white"
+        android:contentDescription="@string/btnparte1"
+        android:onClick="Desenvolvimento"
         android:text="@string/btnparte1"
         android:textColor="#7B9F5B"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -45,5 +50,6 @@
         android:layout_marginEnd="73dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/meioambiente" />
+        app:srcCompat="@drawable/meioambiente"
+        tools:ignore="ContentDescription" />
 </androidx.constraintlayout.widget.ConstraintLayout>
