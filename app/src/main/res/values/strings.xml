@@ -27,4 +27,6 @@
     <string name="imgLogo">Logo</string>
     <string name="editTxt1">Digite seu email</string>
     <string name="editTxt2">Digite sua senha</string>
+    <string name="btnSite">Entrar no site</string>
+    <string name="btnMapa">Entrar no mapa</string>
 </resources>

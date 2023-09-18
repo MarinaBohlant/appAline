@@ -13,6 +13,12 @@
         android:theme="@style/Theme.AppMarinaDamasceno"
         tools:targetApi="31">
         <activity
+            android:name=".mapaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".siteActivity"
+            android:exported="false" />
+        <activity
             android:name=".lojaActivity"
             android:exported="false" />
         <activity

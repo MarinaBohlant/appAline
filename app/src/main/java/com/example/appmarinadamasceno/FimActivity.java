@@ -19,4 +19,8 @@ public class FimActivity extends AppCompatActivity {
         Intent intentFim = new Intent(FimActivity.this, lojaActivity.class);
         startActivity(intentFim);
     }
+    public void Site(View v) {
+        Intent intentSite = new Intent(FimActivity.this, siteActivity.class);
+        startActivity(intentSite);
+    }
 }
