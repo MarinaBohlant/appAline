@@ -6,4 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".mapaActivity">
 
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="310dp"
+        android:layout_height="392dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="120dp"
+        android:contentDescription="@string/mapView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtMapa"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="@string/txtMapa"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -38,9 +38,9 @@
         android:id="@+id/btnparte2"
         android:layout_width="222dp"
         android:layout_height="67dp"
-        android:layout_marginStart="94dp"
+        android:layout_marginStart="95dp"
         android:layout_marginEnd="95dp"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="92dp"
         android:backgroundTint="#FFFFFF"
         android:contentDescription="@string/btnparte2"
         android:fontFamily="sans-serif-medium"
@@ -55,17 +55,19 @@
         tools:ignore="TextContrastCheck" />
 
     <Button
-        android:id="@+id/btnMapa"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="11dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="155dp"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-medium"
         android:onClick="Mapa"
         android:text="@string/btnMapa"
-        android:textColor="#7ba05b"
+        android:textColor="#2E7D32"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnparte2"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/btnparte2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
