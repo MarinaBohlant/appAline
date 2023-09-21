@@ -27,4 +27,7 @@
     <string name="imgLogo">Logo</string>
     <string name="editTxt1">Digite seu email</string>
     <string name="editTxt2">Digite sua senha</string>
+    <string name="txtMapa">Visualize o mapa</string>
+    <string name="mapView">Mapa</string>
+    <string name="btnMapa">Ver mapa</string>
 </resources>

@@ -19,4 +19,8 @@ public class desenvolvimentoActivity extends AppCompatActivity {
         Intent intentDesenvolvimento = new Intent(desenvolvimentoActivity.this, FimActivity.class);
         startActivity(intentDesenvolvimento);
     }
+    public void Mapa(View v) {
+        Intent intentMapa = new Intent(desenvolvimentoActivity.this, mapaActivity.class);
+        startActivity(intentMapa);
+    }
 }
