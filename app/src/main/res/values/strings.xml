@@ -30,4 +30,5 @@
     <string name="txtMapa">Visualize o mapa</string>
     <string name="mapView">Mapa</string>
     <string name="btnMapa">Ver mapa</string>
+    <string name="txtSite">Ver site</string>
 </resources>
