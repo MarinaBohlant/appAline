@@ -13,13 +13,17 @@
         android:theme="@style/Theme.AppMarinaDamasceno"
         tools:targetApi="31">
         <activity
+            android:name=".TemperaturaActivity"
+            android:exported="false" />
+        <activity
             android:name=".mapaActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
-                <category android:name="android.intent.category.BROWSABLE "/>
+                <category android:name="android.intent.category.BROWSABLE " />
             </intent-filter>
         </activity>
         <activity

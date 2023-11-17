@@ -31,4 +31,8 @@
     <string name="mapView">Mapa</string>
     <string name="btnMapa">Ver mapa</string>
     <string name="txtSite">Ver site</string>
+    <string name="txttemperatura">Veja a temperatura mais recente:</string>
+    <string name="txtgraus"></string>
+    <string name="imgterra"></string>
+    <string name="btngerar">Gerar</string>
 </resources>
